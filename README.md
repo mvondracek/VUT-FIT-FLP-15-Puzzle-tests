@@ -34,19 +34,13 @@ $ make --keep-going
 $ make clean
 ~~~
 
-
 ~~~
 $ make help
-15 Puzzle (Patnáctka) tests
-xvondr20, Martin Vondráček
-2017
-
-FLP - Functional and Logic Programming
-FIT - Faculty of Information Technology
-BUT - Brno University of Technology
-
-`make`
-`make test`     Run all tests available in directory `tests/`.
-`make help`     Print this help screen.
-`make clean`    Remove test results.
 ~~~
+
+# Expected behavior
+| Event              | stdout     | stderr                         | esc |
+| ------------------ | ---------- | ------------------------------ | --: |
+| success            | *solution* | *empty*                        |   0 |
+| invalid input      | *empty*    | `Error: Invalid input.\n`      |  65 |
+| solution not found | *empty*    | `Error: Solution not found.\n` |  79 |
