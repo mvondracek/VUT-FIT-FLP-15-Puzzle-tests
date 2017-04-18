@@ -9,6 +9,8 @@ BUT - Brno University of Technology
 
 # VUT FIT FLP 15 Puzzle tests
 
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) 
+
 Tests for the 15 puzzle solver. Program should read puzzle from stdin and
 write steps of found solution to stdout. This repository can be used as a git
 submodule in your project.
