@@ -29,9 +29,10 @@ variable `PROGRAM`.
 ~~~bash
 $ ls
 tests Makefile README.md other
-$ make
+$ make --keep-going
 ...
 [ OK ] All tests passed.
+$ make clean
 ~~~
 
 
