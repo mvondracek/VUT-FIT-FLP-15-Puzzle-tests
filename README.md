@@ -18,15 +18,14 @@ submodule in your project.
 directory *one level above* the `Makefile` or you can override `Makefile`'s
 variable `PROGRAM`. 
 ~~~
-.
 ├─ VUT-FIT-FLP-15-Puzzle-tests
-|   ├─ tests/
-|   ├─ Makefile
-|   └─ README.md
+|    ├─ tests/
+|    ├─ Makefile
+|    └─ README.md
 └─ flp17-log
 ~~~
 
-~~~bash
+~~~
 $ ls
 tests Makefile README.md other
 $ make --keep-going
@@ -36,7 +35,7 @@ $ make clean
 ~~~
 
 
-~~~bash
+~~~
 $ make help
 15 Puzzle (Patnáctka) tests
 xvondr20, Martin Vondráček
