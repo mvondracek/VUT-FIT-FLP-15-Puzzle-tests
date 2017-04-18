@@ -1,0 +1,1 @@
+# VUT-FIT-FLP-15-Puzzle-tests
