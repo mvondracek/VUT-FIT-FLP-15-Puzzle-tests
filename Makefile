@@ -10,7 +10,8 @@
 # Can be overridden, see https://www.gnu.org/software/make/manual/html_node/Overriding.html
 PROGRAM=../flp17-log
 
-## `make`          Run all tests available in directory `tests/`.
+## `make`
+## `make test`     Run all tests available in directory `tests/`.
 test: $(PROGRAM) test_warn \
 $(basename $(wildcard ./tests/*.in)) $(basename $(wildcard ./tests/*/*.in))
 	@echo -e "[\e[32m OK \e[0m] All tests passed."
@@ -22,7 +23,7 @@ help : Makefile
 .PHONY: test help FORCE test_warn clean
 FORCE:
 
-## `make clean`    Remove compiled files.
+## `make clean`    Remove test results.
 clean:
 	rm -r -f ./results/
 
